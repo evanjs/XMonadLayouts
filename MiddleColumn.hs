@@ -3,10 +3,10 @@
 {-# LANGUAGE TemplateHaskell #-}
 {-# LANGUAGE RecordWildCards #-}
 
-module MiddleColumn where
+module XMonad.Layout.MiddleColumn where
 
 import Control.Monad
-import FocusWindow hiding (traceTraceShowId)
+import XMonad.Layout.FocusWindow hiding (traceTraceShowId)
 import XMonad
 import qualified XMonad.StackSet as W
 import XMonad.StackSet (modify')
@@ -17,7 +17,7 @@ import Data.Function (on)
 import Data.List (sortBy)
 import Debug.Trace
 import Text.Read
-import WindowColumn
+import XMonad.Layout.WindowColumn as WindowColumn
   ( Column(Left, Middle, Right)
   , SwopSideColumnWindow(..)
   , SwopTo(SwopTo)

@@ -1,4 +1,4 @@
-module WindowFinder where
+module XMonad.Util.WindowFinder where
 
 import Control.Monad
 import Data.Bool (bool)

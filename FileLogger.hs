@@ -1,4 +1,4 @@
-module FileLogger where
+module XMonad.Util.FileLogger where
 
 import System.IO.Unsafe (unsafePerformIO)
 

@@ -1,6 +1,6 @@
 {-# LANGUAGE FlexibleInstances     #-}
 {-# LANGUAGE MultiParamTypeClasses #-}
-module WindowColumn where
+module XMonad.Layout.WindowColumn where
 
 import           XMonad
 
